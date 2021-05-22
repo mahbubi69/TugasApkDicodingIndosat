@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/carton">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="60dp"
+        app:cardCornerRadius="120dp">
+
+        <ImageView
+            android:id="@+id/circle_img_view"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:background="@drawable/carton"
+            android:src="@drawable/bg_biodata" />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Muhammad Mahbubi"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="muhammadmahbubi@gmail.com"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+</LinearLayout>
